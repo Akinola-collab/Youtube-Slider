@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'poppins';
+}
+body{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50% , rgba(0,0,0,0.5)50%), url(Images/orange.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+nav{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.list{
+    display: flex;
+    margin-right: 60px;
+}
+.list ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    list-style-type: none;
+}
+.list a{
+    color: white;
+    list-style-type: none;
+}
+.list a:hover{
+color: orange;
+}
+.landing-section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box-1{
+   width: 50%;
+   padding: 70px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 70px;
+}
+.box-2{
+    width: 50%;
+    margin-top: 6rem;
+    margin-left: 12rem;
+}
+h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.btn-div{
+    display: flex;
+    margin-top: 80px;
+}
+.container{
+    border: 1px solid ;
+    height: 110%;
+    width: 60%;
+    background-color:rgba(0, 0, 0, 0.747);                 
+    border-radius: 15px;
+}
+.btn1{
+    padding: 15px 45px;
+    background-color: white;
+    color: orangered;
+    border-radius: 40px;
+    border: none;
+}
+.btn-top{
+    padding: 15px 45px;
+    background-color: orangered;
+    color:black ;
+    border-radius: 15px;
+    border: none;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 900;
+    margin-left: 4rem;
+}
+.btn-top a{
+    color: white;
+}
+.btn-top a:hover{
+    color: black;
+}
+.login{
+    color: orange;
+    background-color: white;
+    padding: 15px 45px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 3rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+.input{
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center; 
+}
+.signup a{
+    color: orangered;
+}
+.signup{
+    color: white;
+   text-align: center;
+}
+.loginDiv{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+h4{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+.input-1{
+    padding: 15px 45px;
+    background-color: rgba(12, 12, 12, 0.363);
+    color: teal;
+    border: none;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-align: start;
+}
+.input-2{
+    padding: 15px 45px;
+    background-color: rgba(12, 12, 12, 0.363);
+    color:white;
+    border: none;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.fa-user{
+    color: white;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+.fa-user a{
+    color: white;
+}
+.fa-user a:hover{
+    color: orangered;
+}

@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+nav{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.list{
+    display: flex;
+    margin-right: 60px;
+}
+.list ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    list-style-type: none;
+}
+.list a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.list a:hover{
+color: orange;
+text-decoration: underline;
+}
+.page1{
+    height:50vh ;
+    padding: 25px;
+    text-align: center;
+    background-color: hsl(23, 58%, 22%);
+}
+h3{
+    font-weight: 600;
+    color: orangered;
+}
+.page-2{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+.page-contain{
+    width: 50%;
+    background-color: black;
+    color: orangered;
+    padding: 65px 75px;
+}
+.signup-1{
+    padding: 15px 120px;
+    background-color: orangered;
+    color:black;
+    border-radius: 15px;
+    border: none;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 900;
+}
+.signup-1 a{
+    color: white;
+    text-decoration: none;
+}
+.page-contain2{
+    width: 50%;
+    background-color: rgb(8, 8, 8);
+    color: orangered;
+    padding: 65px 75px;
+    list-style-type: none;
+    line-height: 30px;
+}
+.page-contain2 a{
+    text-decoration: none;
+    color: orangered;
+    flex-direction: column;
+    
+}
+.page-contain2 a:hover{
+    color: white;
+    text-decoration: underline;
+}
